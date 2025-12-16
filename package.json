@@ -1,0 +1,52 @@
+{
+  "name": "@glyph-hq/unified-id-sdk",
+  "version": "1.0.0",
+  "description": "Javascript SDK to interact with Glyph Unified ID smart contracts",
+  "type": "module",
+  "main": "src/index.js",
+  "author": "Glyph Developer <dev@glyph.com>",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.js",
+    "./contract": "./src/UnifiedIDContract.js",
+    "./validation": "./src/utils/validation.js",
+    "./encoding": "./src/utils/encoding.js",
+    "./constants": "./src/constants.js",
+    "./abi": "./src/abi/UnifiedIDRegistry.json"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "unifiedid",
+    "identity",
+    "blockchain",
+    "web3",
+    "ethereum",
+    "registry",
+    "calldata"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Glyph-Protocol-HQ/unifiedid-sdk"
+  },
+  "bugs": {
+    "url": "https://github.com/Glyph-Protocol-HQ/unified-id-sdk/issues"
+  },
+  "homepage": "https://github.com/Glyph-Protocol-HQ/unified-id-sdk#readme",
+  "dependencies": {
+    "ethers": "^5.7.2"
+  },
+  "peerDependencies": {
+    "ethers": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  }
+}
+
