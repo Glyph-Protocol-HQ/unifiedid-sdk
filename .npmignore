@@ -1,0 +1,16 @@
+# Exclude from npm package
+examples/
+docs/
+test/
+coverage/
+.git/
+.gitignore
+.DS_Store
+*.log
+node_modules/
+
+# Include in package (don't add these to .npmignore)
+# src/
+# README.md
+# LICENSE
+# package.json
